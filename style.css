@@ -158,12 +158,6 @@ a{
     }
 }
 
-@media screen AND (max-width: 350px){
-    .Intro{
-        height: 90vh;
-    }
-}
-
 @media screen AND (min-width: 1200px) {
     .profile{
         width: 50%;
@@ -240,3 +234,14 @@ a{
     border-color: #f8b2bf;
 }
 
+@media screen AND (max-width: 370px){
+    .Intro{
+        height: 94vh;
+    }
+
+    .title mark{
+        font-size: 38px;
+        font-weight: 500;
+        color: white;
+    }
+}
