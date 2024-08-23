@@ -1,0 +1,242 @@
+body{
+    background-color: #f8b2bf;
+    font-family: 'Poppins';
+}
+
+nav{
+    border-style: solid;
+    border-width: 2px;
+    border-color: #A0153E;
+}
+
+.navbar-nav a:hover, #active{
+    background-color: white;
+    color: #00224D;
+    transition: 0.3s;
+}
+
+
+.navbar-nav a{
+    border-radius: 10px;
+    color: white;
+    font-weight: 480;
+}
+
+.Intro{
+    background-color: #FF204E;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    padding-top: 10vh;
+    height: 65vh;
+    color: white;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #A0153E;
+}
+
+.name{
+    font-size: 45px;
+    font-weight: 500;
+}
+
+.Intro hr{
+    width: 50vw;
+    border-width: 5px;
+    margin: 8px;
+}
+
+.profile{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 3.5vh;
+    margin-bottom: 5vh;
+}
+
+
+.contact{
+    float: right;
+}
+
+.contact img{
+    margin-bottom: 5px;
+    margin-right: 5px;
+}
+
+a{
+    text-decoration: none;
+    color: #001a3b;
+    font-weight: 650;
+}
+
+.contact hr{
+    width: 40%;
+}
+
+@media screen AND (min-width: 768px) {
+    .bio{
+        float: left;
+        width: 50%;
+        margin-top: 1vh;
+    }
+     
+    .edu{
+        margin: 0 10vw 0 10vw;
+    }
+
+    .achi{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .desc{
+        width: 50%;
+    }
+
+    .Certificate img{
+        float: right;
+        width: 85%;
+    }
+
+    .Certificate{
+        width: 50%;
+    }
+}
+
+@media screen AND (max-width: 767px) {
+    .bio{
+        text-align: center;
+        width: 100%;
+    }
+    .Intro{
+        padding-left: 6vw;
+        padding-top: 7vh;
+        padding-right: 6vw;
+        height: 75vh;
+    }
+    .contact{
+        float: left;
+        margin-top: 5vh;
+    }
+
+    .achi{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+    }
+
+    .desc{
+        width: 100%;
+    }
+
+    .cat{
+        margin-bottom: 2vh;
+    }
+
+    .Certificate img{
+        width: 100%;
+    }
+
+    .Certificate{
+        width: 100%;
+    }
+}
+
+@media screen AND (max-width: 576px){
+    .Intro{
+        padding-left: 6vw;
+        padding-top: 6vh;
+        padding-right: 6vw;
+        height: 85vh;
+    }
+}
+
+@media screen AND (min-width: 576px){
+    .navbar-nav a{
+        margin-right: 5%;
+    }
+}
+
+@media screen AND (max-width: 350px){
+    .Intro{
+        height: 90vh;
+    }
+}
+
+@media screen AND (min-width: 1200px) {
+    .profile{
+        width: 50%;
+    }
+}
+
+@media screen AND (min-width: 1350px) {
+    .bio{
+        margin-top: 5.5vh;
+    }
+}
+
+.body{
+    margin: 5vh 5vw 5vh 5vw;
+    color: black;
+}
+
+.title mark{
+    font-size: 45px;
+    font-weight: 500;
+    color: white;
+}
+
+.card-text a{
+    text-decoration: none;
+    color: #00224D;
+    font-size: large;
+}
+
+.card-text a:hover, .Intro a:hover, .Projects a:hover, .edu a:hover{
+    text-decoration: underline;
+}
+
+.card-title{
+    color: #5D0E41;
+    font-size: 30px;
+}
+
+.card-body hr{
+    width: 30%;
+    border-width: 3px;
+    margin: 8px;
+}
+
+.quotes{
+    font-size: 18px;
+    margin-bottom: 5vh;
+    color: black;
+    font-weight: 420;
+}
+
+.quotes img{
+    margin-bottom: 2vh;
+}
+
+.quote{
+    margin-bottom: 2vh;
+}
+
+.Projects{
+    font-size: 18px;
+    margin-bottom: 5vh;
+    color: black;
+    font-weight: 420;
+}
+
+.cards{
+    margin-bottom: 4vh;
+}
+
+.card img{
+    border-style: solid;
+    border-width: 3px;
+    border-color: #f8b2bf;
+}
+
