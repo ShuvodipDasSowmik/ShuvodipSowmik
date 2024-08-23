@@ -245,3 +245,69 @@ a{
         color: white;
     }
 }
+
+
+
+@media screen AND (min-height: 1000px){
+    .Intro{
+        height: 60vh;
+    }
+}
+
+@media screen AND (max-height: 999px){
+    .Intro{
+        height: 90vh;
+    }
+    .profile{
+        line-height: 4vh;
+    }
+}
+
+@media screen AND (max-width: 380px) AND (max-height: 840px){
+    .Intro{
+        height: 90vh;
+    }
+}
+
+@media screen AND (max-width: 380px) AND (max-height: 780px){
+    .Intro{
+        height: 96vh;
+    }
+}
+
+@media screen AND (max-width: 380px) AND (max-height: 700px){
+    .Intro{
+        height: 102vh;
+    }
+}
+
+
+@media screen AND (min-width: 1000px) AND (min-height: 760px) {
+    .Intro{
+        height: 70vh;
+    }
+}
+
+@media screen AND (min-width: 1000px) AND (min-height: 1200px) {
+    .Intro{
+        height: 55vh;
+    }
+}
+
+@media screen AND (max-height: 435px) {
+    .Intro{
+        height: 100vh;
+    }
+
+    .profile{
+        line-height: 6.5vh;
+    }
+}
+
+@media screen AND (max-height: 380px) {
+    .Intro{
+        height: 130vh;
+    }
+
+}
+
