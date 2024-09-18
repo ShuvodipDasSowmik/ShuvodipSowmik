@@ -263,6 +263,25 @@ a{
     }
 }
 
+@media screen AND (max-width: 625px) {
+    .Intro{
+        height: 95vh;
+    }
+}
+
+@media screen AND (max-width: 600px) {
+    .Intro{
+        height: 100vh;
+    }
+}
+
+
+@media screen AND (max-width: 530px) {
+    .Intro{
+        height: 110vh;
+    }
+}
+
 @media screen AND (max-width: 380px) AND (max-height: 840px){
     .Intro{
         height: 100vh;
@@ -300,21 +319,9 @@ a{
     }
 }
 
-@media screen AND (max-width: 625px) {
+@media screen AND (max-width: 450px) {
     .Intro{
-        height: 95vh;
-    }
-}
-
-@media screen AND (max-width: 600px) {
-    .Intro{
-        height: 100vh;
-    }
-}
-
-@media screen AND (max-width: 530px) {
-    .Intro{
-        height: 110vh;
+        height: 90vh;
     }
 }
 
@@ -327,6 +334,7 @@ a{
         line-height: 6.5vh;
     }
 }
+
 
 @media screen AND (max-height: 380px) {
     .Intro{
