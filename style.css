@@ -256,7 +256,7 @@ a{
 
 @media screen AND (max-height: 999px){
     .Intro{
-        height: 90vh;
+        height: 84vh;
     }
     .profile{
         line-height: 4vh;
@@ -265,7 +265,7 @@ a{
 
 @media screen AND (max-width: 380px) AND (max-height: 840px){
     .Intro{
-        height: 90vh;
+        height: 100vh;
     }
 }
 
@@ -281,6 +281,12 @@ a{
     }
 }
 
+@media screen AND (min-width: 1000px) AND (min-height: 500px) {
+    .Intro{
+        height: 70vh;
+    }
+}
+
 
 @media screen AND (min-width: 1000px) AND (min-height: 760px) {
     .Intro{
@@ -291,6 +297,24 @@ a{
 @media screen AND (min-width: 1000px) AND (min-height: 1200px) {
     .Intro{
         height: 55vh;
+    }
+}
+
+@media screen AND (max-width: 625px) {
+    .Intro{
+        height: 95vh;
+    }
+}
+
+@media screen AND (max-width: 600px) {
+    .Intro{
+        height: 100vh;
+    }
+}
+
+@media screen AND (max-width: 530px) {
+    .Intro{
+        height: 110vh;
     }
 }
 
