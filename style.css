@@ -46,7 +46,7 @@ nav{
 }
 
 .profile{
-    font-size: 20px;
+    font-size: 18px;
     font-weight: 400;
     line-height: 3.5vh;
     margin-bottom: 5vh;
@@ -325,9 +325,15 @@ a{
     }
 }
 
+@media screen AND (min-height: 790px) AND (max-height: 840px) {
+    .Intro{
+        height: 95vh;
+    }
+}
+
 @media screen AND (max-height: 435px) {
     .Intro{
-        height: 100vh;
+        height: 105vh;
     }
 
     .profile{
