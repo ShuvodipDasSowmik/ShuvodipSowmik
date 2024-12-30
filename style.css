@@ -325,6 +325,18 @@ a{
     }
 }
 
+@media screen AND (max-width: 420px) AND (min-height: 630px) AND (max-height: 719px) {
+    .Intro{
+        height: 110vh;
+    }
+}
+
+@media screen AND (max-width: 420px) AND (min-height: 720px) AND (max-height: 840px) {
+    .Intro{
+        height: 100vh;
+    }
+}
+
 @media screen AND (min-height: 790px) AND (max-height: 840px) {
     .Intro{
         height: 95vh;
