@@ -15,6 +15,10 @@ nav{
     transition: 0.3s;
 }
 
+.card1{
+    width: 50%;
+}
+
 
 .navbar-nav a{
     border-radius: 10px;
@@ -108,6 +112,9 @@ a{
         text-align: center;
         width: 100%;
     }
+    .card1{
+        width: 100%;
+    }
     .Intro{
         padding-left: 6vw;
         padding-top: 7vh;
@@ -180,6 +187,7 @@ a{
     font-weight: 500;
     color: white;
 }
+
 
 .card-text a{
     text-decoration: none;
